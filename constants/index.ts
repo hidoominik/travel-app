@@ -84,3 +84,5 @@ export const SOCIALS = {
     "/wordpress.svg",
   ],
 };
+
+export const LINK_PLACEHOLDER = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";

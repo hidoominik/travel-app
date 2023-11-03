@@ -1,4 +1,5 @@
 "use client";
+import { LINK_PLACEHOLDER } from "@/constants";
 import Image from "next/image";
 import React from "react";
 type ButtonProps = {
@@ -10,7 +11,7 @@ type ButtonProps = {
 };
 const redirectToWebsite = () => {
   // Replace the URL in the parentheses with the URL you want to redirect to
-  window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+  window.location.href = LINK_PLACEHOLDER;
 };
 const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
   return (
