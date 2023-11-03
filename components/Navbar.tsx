@@ -44,7 +44,7 @@ const Navbar = () => {
           className="inline-block cursor-pointer lg:hidden"
         />
         {isNavOpen && (
-          <nav className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-2">
+          <nav className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-2 xl:hidden">
             <ul className="h-full gap-12 lg:hidden">
               {NAV_LINKS.map((link) => (
                 <Link
